@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.6)), url("NIT.png");
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.head
+{
+    display: flex;
+}
+table{
+    color: white;
+    border: 1px solid white;
+}
+thead {
+    border: 1px solid white;
+
+
+}
+td {
+    color: white;
+    border: 1px solid white;
+
+}
+th {
+    color: white;
+    border: 1px solid white;
+}
+
+td button {
+    border: none;
+    background-color: rgb(155, 253, 50);
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
