@@ -38,17 +38,12 @@ After installing PostgreSQL, you can create a superuser and a database:
    sudo -i -u postgres
    ```
 
-2. Create a new PostgreSQL superuser:
-   ```bash
-   createuser --interactive --pwprompt
-   ```
-
-3. Create a new database:
+2. Create a new database:
    ```bash
    createdb techdb
    ```
 
-4. Exit the `postgres` user:
+3. Exit the `postgres` user:
    ```bash
    exit
    ```
