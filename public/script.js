@@ -53,7 +53,7 @@ function renderEvents() {
         </div>
         <div class="col-md-3">
           <label class="form-label">Entry Fee</label>
-          <input type="number" class="form-control" value="${event.entry_fee}">
+          <input type="number" class="form-cont rol" value="${event.entry_fee}">
         </div>
         <div class="col-md-3">
           <label class="form-label">Prizes</label>
